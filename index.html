@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            --color-white: #f9f9f9;
+            --color-second: #fcb97e;
+
+            background-color: rgb(75, 147, 255);
+            color: var(--color-white);
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+
+            min-height: 100vh;
+
+            margin: 0;
+        }
+
+        .peopleCards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 80vw;
+        }
+
+        .peopleLink {
+            margin: .25em;
+            padding: .5em;
+            border: 1px solid var(--color-white);
+            border-radius: .25em;
+        }
+
+        .peopleLink:hover {
+            border: 1px solid var(--color-second);
+        }
+
+        .peopleLink>a {
+            color: var(--color-white);
+            text-decoration: none;
+            transition: .125s linear;
+            /* Время изменения */
+
+        }
+
+        .peopleLink>a:hover {
+            color: var(--color-second);
+            text-decoration: none;
+            transition: .125s linear;
+            /* Время изменения */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>27А</h2>
+    <div class="peopleCards">
+        <div class="peopleLink"><a href="./dep/ allyouloven.html">allyouloven</a></div>
+        <div class="peopleLink"><a href="./dep/ Maria-WQS.html">Maria-WQS</a></div>
+        <div class="peopleLink"><a href="./dep/ Tatyana27.html">Tatyana27</a></div>
+        <div class="peopleLink"><a href="./dep/AlexanderMa17.html">AlexanderMa17</a></div>
+        <div class="peopleLink"><a href="./dep/Eldlkn.html">Eldlkn</a></div>
+        <div class="peopleLink"><a href="./dep/Nikita1817.html">Nikita1817</a></div>
+        <div class="peopleLink"><a href="./dep/sn4ka.html">sn4ka</a></div>
+    </div>
+</body>
+
+</html>
